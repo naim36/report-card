@@ -3,7 +3,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
 from reportlab.pdfgen import canvas
 
-# Excel file reading
+
 try:
     df = pd.read_excel('student_scores.xlsx')
 except Exception as e:
